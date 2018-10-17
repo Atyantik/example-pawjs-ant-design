@@ -1,7 +1,7 @@
-//import SassPlugin from "@pawjs/sass/webpack";
+import SassPlugin from "@pawjs/sass/webpack";
 
 export default class ProjectWebpack {
-    // constructor({ addPlugin }) {
-    //     addPlugin(new SassPlugin());
-    // }
+    constructor({ addPlugin }) {
+        addPlugin(new SassPlugin());
+    }
 }
