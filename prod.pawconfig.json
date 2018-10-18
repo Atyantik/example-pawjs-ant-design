@@ -1,7 +1,7 @@
 {
   "port": "9003",
   "host": "0.0.0.0",
-  "appRootUrl": "/example/ant-design",
+  "appRootUrl": "/examples/ant-design",
   "serviceWorker": false,
   "serverSideRender": true,
   "singlePageApplication": false
