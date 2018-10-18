@@ -24,7 +24,7 @@ export default class Home extends Component {
     }
 
     handleSearch = () => {
-        fetch("http://localhost:3030/search?q=test").then(res => res.json()).then(data => this.setState({ data: _.map(data, item => ({ text: item.race_name, value: item.race_name })) }));
+        // api call to fetch suggestions here
     };
 
     handleChange = (value) => {

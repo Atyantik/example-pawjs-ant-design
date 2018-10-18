@@ -28,11 +28,18 @@
     }
   ],
   "devDependencies": {
-    "@pawjs/pawjs": "^2.1.10"
+    "@pawjs/pawjs": "^2.2.3"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Atyantik/example-pawjs-ant-design/issues"
   },
-  "homepage": "https://github.com/Atyantik/example-pawjs-ant-design#readme"
+  "homepage": "https://github.com/Atyantik/example-pawjs-ant-design#readme",
+  "dependencies": {
+    "@pawjs/sass": "^2.1.7",
+    "antd": "^3.10.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "react": "^16.5.2"
+  }
 }
