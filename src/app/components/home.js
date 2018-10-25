@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import _ from 'lodash';
 import {
-  Select, Layout, DatePicker, InputNumber, Slider, Card, Icon, List, Pagination,
+  Select, Layout, DatePicker, InputNumber, Slider, Card, Icon, List, Pagination, Button,
 } from 'antd';
 import styles from './home.scss';
 
@@ -42,6 +42,16 @@ export default class Home extends Component {
               <h1 className={styles['h1-style']}>
                 Book accomodation closest to the start of running races.
               </h1>
+              <div>
+                <Button
+                  type="primary"
+                  icon="github"
+                  size="large"
+                  href="https://github.com/Atyantik/example-pawjs-ant-design"
+                >
+                  View Source Code
+                </Button>
+              </div>
               <Select
                 showSearch
                 value={value}
