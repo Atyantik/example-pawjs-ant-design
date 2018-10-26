@@ -30,16 +30,14 @@
       "url": "https://www.yashthakur.in/"
     }
   ],
-  "devDependencies": {
-    "@pawjs/pawjs": "^2.2.3",
-    "@pawjs/sass": "^2.1.7"
-  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Atyantik/example-pawjs-ant-design/issues"
   },
   "homepage": "https://github.com/Atyantik/example-pawjs-ant-design#readme",
   "dependencies": {
-    "antd": "^3.10.1"
+    "antd": "^3.10.2",
+    "@pawjs/pawjs": "^2.2.4",
+    "@pawjs/sass": "^2.1.7"
   }
 }

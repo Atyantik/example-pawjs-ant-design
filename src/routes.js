@@ -8,6 +8,7 @@ import ShareImg384 from './resources/img/icon-384x384.png';
 import ShareImg512 from './resources/img/icon-512x512.png';
 
 export default class Routes {
+  // eslint-disable-next-line
   apply(routeHandler) {
     const routes = [
       {
@@ -22,14 +23,11 @@ export default class Routes {
       routeHandler.setPwaSchema({
         name: 'ReactPWA | Ant Design',
         short_name: 'RPWAA',
-        dir: 'ltr',
-        lang: 'en-US',
         orientation: 'any',
-        start_url: '/examples/ant-design',
         background_color: '#111',
         theme_color: '#111',
         display: 'standalone',
-        description: 'Ant Design implementation using ReactPWA',
+        description: 'Ant Design implementation with ReactPWA',
         icons: [
           {
             src: ShareImg72,
@@ -65,11 +63,12 @@ export default class Routes {
           },
         ],
       });
+      
       // eslint-disable-next-line
       routeHandler.getDefaultSeoSchema = () => ({
-        title: 'ReactPWA | Ant Design',
-        name: 'ReactPWA | Ant Design',
-        description: 'Ant Design implementation using ReactPWA',
+        title: 'ReactPWA | Ant Design | Example',
+        name: 'ReactPWA | Ant Design | Example',
+        description: 'Ant Design implementation with ReactPWA',
         type: 'website',
         url: 'https://www.reactpwa.com/examples/ant-design',
         site_name: 'ReactPWA',
