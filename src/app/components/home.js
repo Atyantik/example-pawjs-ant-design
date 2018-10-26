@@ -72,7 +72,7 @@ export default class Home extends Component {
               </Select>
             </div>
           </Header>
-          <Layout className={styles['body-layout']}>
+          <Layout className={`${styles['body-layout']} ant-layout-has-sider`}>
             <Sider className={styles.sidebar} width={300}>
               <table>
                 <tbody>
