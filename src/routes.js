@@ -14,7 +14,12 @@ export default class Routes {
       {
         path: '/',
         exact: true,
-        component: import('./app/components/home'),
+        component: import('./app/components/home/home'),
+      },
+      {
+        path: '/about',
+        exact: true,
+        component: import('./app/components/about/about'),
       },
     ];
 
@@ -63,7 +68,7 @@ export default class Routes {
           },
         ],
       });
-      
+
       // eslint-disable-next-line
       routeHandler.getDefaultSeoSchema = () => ({
         title: 'ReactPWA | Ant Design | Example',

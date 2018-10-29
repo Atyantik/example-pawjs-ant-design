@@ -1,7 +1,10 @@
-import SassPlugin from '@pawjs/sass/webpack';
+import LessPlugin from '@pawjs/less/webpack';
 
 export default class ProjectWebpack {
   constructor({ addPlugin }) {
-    addPlugin(new SassPlugin());
+    const options = {
+      javascriptEnabled: true,
+    };
+    addPlugin(new LessPlugin(options));
   }
 }
