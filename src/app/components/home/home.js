@@ -39,9 +39,11 @@ export default class Home extends Component {
           </div>
           <Affix offsetTop={0}>
             <Header className={styles['header-layout']}>
-              <span style={{ color: '#fff' }}>
-                <strong>AntDesign + ReactPWA</strong>
-              </span>
+              <Link to="/">
+                <span style={{ color: '#fff' }}>
+                  <strong>AntDesign + ReactPWA</strong>
+                </span>
+              </Link>
               <Button type="primary" shape="circle" onClick={this.showDrawer}>
                 <Icon type="bars" theme="outlined" />
               </Button>
