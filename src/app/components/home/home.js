@@ -143,6 +143,7 @@ const Home = () => (
           </Col>
         </Row>
       </div>
+      <br />
       <Row>
         <Col span={24} className={styles['align-center']}>
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
