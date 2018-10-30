@@ -6,6 +6,7 @@ import ShareImg152 from './resources/img/icon-152x152.png';
 import ShareImg192 from './resources/img/icon-192x192.png';
 import ShareImg384 from './resources/img/icon-384x384.png';
 import ShareImg512 from './resources/img/icon-512x512.png';
+import ReactAnt from './resources/img/Reactpwa-Pawjs-AntDesign.png';
 
 export default class Routes {
   // eslint-disable-next-line
@@ -77,7 +78,7 @@ export default class Routes {
         type: 'website',
         url: 'https://www.reactpwa.com/examples/ant-design',
         site_name: 'ReactPWA',
-        image: ShareImg512,
+        image: ReactAnt,
         meta: [
           {
             name: 'author',
@@ -110,10 +111,6 @@ export default class Routes {
           {
             name: 'apple-mobile-web-app-title',
             content: 'ReactPWA | Ant Design',
-          },
-          {
-            name: 'viewport',
-            content: 'width=device-width, initial-scale=1, maximum-scale=5.0',
           },
         ],
       });

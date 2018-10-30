@@ -37,7 +37,7 @@
   "homepage": "https://github.com/Atyantik/example-pawjs-ant-design#readme",
   "dependencies": {
     "@pawjs/less": "^2.0.0",
-    "@pawjs/pawjs": "^2.2.4",
+    "@pawjs/pawjs": "^2.2.6",
     "antd": "^3.10.2"
   }
 }
