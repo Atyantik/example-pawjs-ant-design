@@ -143,15 +143,18 @@ const Home = () => (
           </Col>
         </Row>
       </div>
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-      <ins
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-7586505628408924"
-        data-ad-slot="5652642939"
-        data-ad-format="auto"
-      />
-      <script dangerouslySetInnerHTML={{ __html: '(adsbygoogle = window.adsbygoogle || []).push({});' }} />
+      <Row>
+        <Col span={24}>
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-7586505628408924"
+            data-ad-slot="5652642939"
+            data-ad-format="auto"
+          />
+        </Col>
+      </Row>
     </Content>
   </GuestLayout>
 );
