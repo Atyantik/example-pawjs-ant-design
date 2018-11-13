@@ -27,8 +27,8 @@ export default class Routes {
     routeHandler.hooks.initRoutes.tapPromise('AppRoutes', async () => {
       routeHandler.addRoutes(routes);
       routeHandler.setPwaSchema({
-        name: 'ReactPWA | Ant Design',
-        short_name: 'RPWAA',
+        name: 'ReactPWA | PawJS - Ant Design',
+        short_name: 'P-AntD',
         orientation: 'any',
         background_color: '#111',
         theme_color: '#111',
